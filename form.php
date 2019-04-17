@@ -11,13 +11,14 @@ class Form{
      * @var array
      * donnéess du formulaire
      */
-    public $data;
+    protected $data;
 
     /**
      * @var string
      * Tag pourentourer le Formulaire
      */
-    public $surround ='p';
+
+    protected $surround ='p';
 
     /**
      * Form constructor.
@@ -31,7 +32,8 @@ class Form{
      * @param $html : code Html utilisé
      * @return string
      */
-    private function surround($html){
+
+    protected function surround($html){
         return"<{$this->surround}>{$html}</{$this->surround}>";
     }
 
@@ -39,7 +41,7 @@ class Form{
      * @param $index / Index de la Valeur à recuperer
      * @return mixed|null
      */
-    public function getValue($index){
+    protected function getValue($index){
         return isset($this->data[$index])? $this->data[$index] : null;
     }
 
@@ -47,6 +49,7 @@ class Form{
      * @param $name / Index
      * @return string
      */
+
     public function input($name){
        return $this->surround(
            '<input type="text" name="'.$name. '" value="' .$this->getValue($name). '">'
