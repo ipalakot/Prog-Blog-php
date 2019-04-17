@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe53a2a-0386-4e9f-953a-8d807cd06451" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootstrapForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,29 +17,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#5#0#PHP" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BootstrapForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="476">
+              <caret line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#7#28#0#PHP" expanded="true" />
                 <element signature="n#surround#0;n#Form#0;n#!!top" />
                 <element signature="n#getValue#0;n#Form#0;n#!!top" />
                 <element signature="n#input#0;n#Form#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../php/Class/text.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -50,8 +67,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/form.php" />
+        <option value="$PROJECT_DIR$/../php/Class/text.php" />
+        <option value="$PROJECT_DIR$/BootstrapForm.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -59,16 +78,6 @@
     <servers>
       <server host="localhost" id="381ce69f-839a-4c04-b92d-0a5a5ba313c9" name="localhost" />
     </servers>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/ProgBlog.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
@@ -98,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php/Class/text.php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -132,24 +141,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555513631031</updated>
-      <workItem from="1555513633460" duration="9998000" />
+      <workItem from="1555513633460" duration="13149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9998000" />
+    <option name="totallyTimeSpent" value="13149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-6" width="1553" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.50076103" side_tool="true" visible="true" weight="0.158071" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.158071" />
+      <window_info id="Favorites" sideWeight="0.5007278" side_tool="true" visible="true" weight="0.158071" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992722" visible="true" weight="0.158071" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.158071" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32896653" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.04366812" />
+      <window_info anchor="bottom" id="Terminal" weight="0.356623" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -168,26 +177,47 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#5#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="476">
+          <caret line="62" selection-end-line="62" />
           <folding>
             <element signature="e#7#28#0#PHP" expanded="true" />
             <element signature="n#surround#0;n#Form#0;n#!!top" />
             <element signature="n#getValue#0;n#Form#0;n#!!top" />
             <element signature="n#input#0;n#Form#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php/Class/bootstrapForm.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php/Class/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php/Class/text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BootstrapForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
