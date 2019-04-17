@@ -9,8 +9,10 @@
 
 <body>
     <?php
-        require'form.php';
-        require 'BootstrapForm.php';
+
+        require'class/Autoloader.php';
+        Autoloader::register();
+
         $form = new BootstrapForm($_POST);
     ?>
 

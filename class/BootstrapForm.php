@@ -1,7 +1,7 @@
 <?php
 
 
-class BootstrapForm extends form{
+class BootstrapForm extends \Tutoriel\HTML\Form{
 
 
     /**

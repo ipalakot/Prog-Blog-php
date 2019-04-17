@@ -1,10 +1,10 @@
 <?php
+namespace Tutoriel\HTML;
 
 /**
  * Class Form
  * Generer un formulaire simplement
  */
-
 class Form{
 
     /**
