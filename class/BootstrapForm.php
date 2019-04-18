@@ -14,8 +14,6 @@ class BootstrapForm extends \Tutoriel\HTML\Form{
         return"<div class=\"form-group\">{$html}</div>";
     }
 
-
-
     /**
      * @param $name / Index
      * @return string
