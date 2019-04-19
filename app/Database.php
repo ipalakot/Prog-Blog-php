@@ -27,9 +27,9 @@ class  Database{
         return$this->pdo;
 
 }
-    public function query($statment){
+    public function query($statment, $class_name){
     $req = $this ->getPDO()->query($statment);
-    $datas =$req->fetchALL(PDO::FETCH_OBJ);
+    $datas =$req->fetchALL(PDO::FETCH_CLASS, $class_name);
 
     return $datas;
 
