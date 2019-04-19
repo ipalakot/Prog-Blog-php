@@ -10,7 +10,11 @@ namespace App\Table;
      }
 
      public function getExtrait(){
-         return $this->contenu;
+
+         $html= '<p>' . substr($this->contenu, 50). '...</p>';
+
+         $html .= '<p> <a href="'.$this->getURL().'"> Voir la Suite </a></p>';
+         return $html;
  }
 
 

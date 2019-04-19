@@ -3,8 +3,8 @@
 
 
 
-        <h2> <a href="<? $post->getURL() ?>"> <?= $post->titre; ?> </a> </h2>
-        <p><?php $post->getExtrait(); ?></p>
+        <h2> <a href="<?= $post->getURL() ?>"> <?= $post->titre; ?> </a> </h2>
+        <p><?= $post->getExtrait(); ?></p>
 
 
 
