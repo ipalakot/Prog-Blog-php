@@ -10,6 +10,9 @@
         $p= 'home';
     }
 
+    // Initialisation des Objets
+    $db= new App\Database('blog');
+
     ob_start();
 
     if ($p==='home'){
