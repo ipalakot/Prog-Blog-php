@@ -5,6 +5,12 @@ namespace App\Table;
 
  class Article{
 
+     public function __get($key){
+
+         $method= 'get' .ucfirst($key);
+         return $this->$method();
+ }
+
      public function getURL(){
          return 'index.php?p=article$id=' . $this->id;
      }
