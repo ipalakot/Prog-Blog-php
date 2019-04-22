@@ -1,5 +1,5 @@
 <ul>
-    <?php foreach ($db->query('SELECT * FROM articles', 'App\Table\Article') as $post): ?>
+    <?php foreach (App\App::getDb()->query('SELECT * FROM articles', 'App\Table\Article') as $post): ?>
 
 
 
